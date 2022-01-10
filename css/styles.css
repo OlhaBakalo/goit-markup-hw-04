@@ -248,6 +248,17 @@ img {
   margin-top: 30px;
 }
 
+.priority-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: var(--second-background-color);
+}
+
 .priority-header {
   margin-bottom: 10px;
 
