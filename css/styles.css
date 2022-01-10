@@ -156,7 +156,8 @@ img {
 }
 
 .header-contact {
-  display: block;
+  display: flex;
+  text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -169,6 +170,12 @@ img {
 
 .contacts-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-contact-icon {
+  margin-right: 10px;
+
+  fill: currentColor;
 }
 
 /* ----------------HERO SECTION --------------------- */
